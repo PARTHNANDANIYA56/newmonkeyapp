@@ -77,6 +77,9 @@ const News = ({ pageSize, category }) => {
                             description={article.description}
                             urlToImage={article.urlToImage}
                             url={article.url}
+                            publishedAt={article.publishedAt}
+                            author={article.author}
+                            source={article.source}
                         />
                     </div>
                 ))}
